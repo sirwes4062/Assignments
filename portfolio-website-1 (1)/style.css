@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.header{
+   
+    height: 10vh;
+    background-color: rgba(255, 0, 0, 0.781);
+    border-radius: 19px;
+}
+.main{
+   padding-top:30px ;
+   padding-left: 60px;
+    height: 160vh;
+    background-color: blue;
+    border-radius: 19px;
+
+}
+.footer{
+   
+    height: 10vh;
+    background-color: green;
+}
+
+.header ul{
+display: flex;
+}
+
+.header ul li{
+  
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    
+}
+.header ul li:hover{
+   color: blue;
+}
+
+.main .my-name,.hobies{
+ font-size: 50px;
+  color: white;
+}
+.main p{
+   margin-top: 30px;
+    color: white;
+   font-size: 30px;
+}
+.footer{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    color: white;
+}
+
+

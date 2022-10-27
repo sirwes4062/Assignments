@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+.email{
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.message{
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+/* the email,the message ,btn */
+.the-email{
+    border: 2px solid green;
+    width: 50%;
+    border-radius: 10px;
+    padding-left: 12px;
+    height: 60px;
+    margin-bottom: 20px;
+  
+}
+.the-message{
+    border: 2px solid green;
+    width: 50%;
+    border-radius: 10px;
+    padding-left: 12px;
+    height: 60px;
+}
+.btn{
+    margin-top: 30px;
+    width: 12%;
+   height: 30px;
+   padding: 5px;
+    background-color: blue;
+    border-radius: 7px;
+    color: white;
+    
+}
+.btn:hover{
+    background-color: black;
+    color: blue;
+}
