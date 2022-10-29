@@ -1,0 +1,157 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    background-image: url(/images/bg-intro-desktop.png);
+    width: 100vw;
+    height: 100vh;
+    background-color:hsl(0, 100%, 74%);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px;
+ 
+}
+
+.paragraph,.header{
+    color: white;
+}
+
+.header{
+    margin-bottom: 30px;
+}
+
+.trial-form,.submit{
+    width: 40vw;
+    height: 50px;
+    background-color:  hsl(248, 32%, 49%);
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-form{
+    width: 40vw;
+    height: 450px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.reg-form,.trial-form{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.062);
+}
+
+.header-paragraph{
+    margin: auto;
+    
+}
+.header{
+    font-size:50px;
+}
+
+.paragraph{
+    font-size: 20px;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.border{
+    outline: none;
+    border: none;
+    margin: 10px 0 20px 10px;
+
+}
+.input{
+    border:2px solid rgba(0, 0, 0, 0.49);
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px 30;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+.submit{
+    width: 100%;
+    border-radius: 5px;
+    background-color:  hsl(154, 59%, 51%);
+    margin-top: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.error{
+    display: none;
+    padding-left: 20px;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.dim{
+    color: rgba(255, 255, 255, 0.707);
+}
+
+.bottom{
+    color: rgba(0, 0, 0, 0.45);
+}
+
+
+.terms{
+    color:hsl(0, 100%, 74%) ;
+}
+
+.submit button{
+    border: 0;
+    background-color:  hsl(154, 59%, 51%);
+}
+
+
+@media screen and (max-width: 675px) {
+    .container{
+      display: flex;
+      flex-direction: column;
+      height: 200%;
+      padding: 20px;
+    }
+    .header{
+        font-size:30px;
+        margin-bottom: 20px;
+    }
+    
+    .paragraph{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+.trial-form{
+    width: 85vw;
+    /* padding-left: 20px; */
+}
+.reg-form{
+    width: 85vw;
+}
+
+    
+  }
